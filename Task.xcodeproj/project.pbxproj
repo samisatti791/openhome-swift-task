@@ -11,6 +11,12 @@
 		57C321DD2C876C3200ED6FF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321DC2C876C3200ED6FF8 /* ContentView.swift */; };
 		57C321DF2C876C3400ED6FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C321DE2C876C3400ED6FF8 /* Assets.xcassets */; };
 		57C321E22C876C3400ED6FF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C321E12C876C3400ED6FF8 /* Preview Assets.xcassets */; };
+		57C321EA2C876C6800ED6FF8 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321E92C876C6800ED6FF8 /* WebSocketManager.swift */; };
+		57C321EC2C876CA900ED6FF8 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321EB2C876CA900ED6FF8 /* AudioRecorder.swift */; };
+		57C321EE2C876CCC00ED6FF8 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321ED2C876CCC00ED6FF8 /* AudioPlayer.swift */; };
+		57C321F02C876CFC00ED6FF8 /* PersonalityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321EF2C876CFC00ED6FF8 /* PersonalityView.swift */; };
+		57C321F42C87816500ED6FF8 /* PersonalityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321F32C87816500ED6FF8 /* PersonalityViewModel.swift */; };
+		57C321F72C878DF400ED6FF8 /* PersonalityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C321F62C878DF400ED6FF8 /* PersonalityResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		57C321DC2C876C3200ED6FF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57C321DE2C876C3400ED6FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C321E12C876C3400ED6FF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57C321E92C876C6800ED6FF8 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		57C321EB2C876CA900ED6FF8 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		57C321ED2C876CCC00ED6FF8 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		57C321EF2C876CFC00ED6FF8 /* PersonalityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityView.swift; sourceTree = "<group>"; };
+		57C321F32C87816500ED6FF8 /* PersonalityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityViewModel.swift; sourceTree = "<group>"; };
+		57C321F62C878DF400ED6FF8 /* PersonalityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,10 @@
 			children = (
 				57C321DA2C876C3200ED6FF8 /* TaskApp.swift */,
 				57C321DC2C876C3200ED6FF8 /* ContentView.swift */,
+				57C321EB2C876CA900ED6FF8 /* AudioRecorder.swift */,
+				57C321ED2C876CCC00ED6FF8 /* AudioPlayer.swift */,
+				57C321E82C876C5300ED6FF8 /* SocketManager */,
+				57C321F52C87854600ED6FF8 /* Personality */,
 				57C321DE2C876C3400ED6FF8 /* Assets.xcassets */,
 				57C321E02C876C3400ED6FF8 /* Preview Content */,
 			);
@@ -65,6 +81,24 @@
 				57C321E12C876C3400ED6FF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57C321E82C876C5300ED6FF8 /* SocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				57C321E92C876C6800ED6FF8 /* WebSocketManager.swift */,
+			);
+			path = SocketManager;
+			sourceTree = "<group>";
+		};
+		57C321F52C87854600ED6FF8 /* Personality */ = {
+			isa = PBXGroup;
+			children = (
+				57C321EF2C876CFC00ED6FF8 /* PersonalityView.swift */,
+				57C321F32C87816500ED6FF8 /* PersonalityViewModel.swift */,
+				57C321F62C878DF400ED6FF8 /* PersonalityResponse.swift */,
+			);
+			path = Personality;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +173,12 @@
 			files = (
 				57C321DD2C876C3200ED6FF8 /* ContentView.swift in Sources */,
 				57C321DB2C876C3200ED6FF8 /* TaskApp.swift in Sources */,
+				57C321EE2C876CCC00ED6FF8 /* AudioPlayer.swift in Sources */,
+				57C321EC2C876CA900ED6FF8 /* AudioRecorder.swift in Sources */,
+				57C321EA2C876C6800ED6FF8 /* WebSocketManager.swift in Sources */,
+				57C321F72C878DF400ED6FF8 /* PersonalityResponse.swift in Sources */,
+				57C321F02C876CFC00ED6FF8 /* PersonalityView.swift in Sources */,
+				57C321F42C87816500ED6FF8 /* PersonalityViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +315,13 @@
 				DEVELOPMENT_TEAM = NJGLFQW67M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs access to your microphone for real-time audio communication.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +346,13 @@
 				DEVELOPMENT_TEAM = NJGLFQW67M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs access to your microphone for real-time audio communication.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
